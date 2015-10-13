@@ -1,0 +1,74 @@
+ 	**************************************************
+	*						 *
+	*	        1.8.0 SERIES NEWS		 *
+	*						 *
+	**************************************************
+
+NEW FEATURES
+
+    o Adds support for making orgDb objects/databases for all NCBI
+    taxIDs where there is sufficient data (for adding to
+    AnnotationHub).  This makes objects for 1100 organisms.
+
+
+ 	**************************************************
+	*						 *
+	*	        1.6.0 SERIES NEWS		 *
+	*						 *
+	**************************************************
+
+NEW FEATURES
+
+    o Adds support for a generalized makeChipPackage() function so
+    that users with a probe that maps to an ID can make a chip package
+    providing only that they have access to an org package (no .db0
+    package required).
+
+    o Adds support for making new inparanoid8 databases (for loading
+    into AnnotationHub)
+
+
+
+ 	**************************************************
+	*						 *
+	*	        1.4.0 SERIES NEWS		 *
+	*						 *
+	**************************************************
+
+NEW FEATURES
+
+    o adds more general mechanism for creating organism packages.
+    makeOrgPackage() will now allow users to pass in a series of
+    data.frames, and (provided that they are formatted correctly) will
+    compile those into a gene-centric organism package.  The aim is to
+    provide a more general mechanism for people who are working on
+    organisms that are off the beaten path.
+
+    o updates to the documentation (new vignettes) to better clarify
+    how users who need to make new organism packages should do so.
+
+
+ 	**************************************************
+	*						 *
+	*	        1.0.0 SERIES NEWS		 *
+	*						 *
+	**************************************************
+
+
+		AnnotationForge VERSION 1.0.0
+
+
+PKG FEATURES
+
+    o	All of the code that used to live in AnnotationDbi but was
+        primarily involved in the creation of new annotation packages
+        now lives here.
+
+NEW FEATURES
+
+    o New biocViews tags have been added to the code that generates all
+    the new Annotation packages.  These allow users to search
+    annotation packages by the type of annotation package that they
+    are.  So for example you can now quickly list only the
+    TranscriptDb packages by using the web site.
+
