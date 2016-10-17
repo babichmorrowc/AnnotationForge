@@ -1,0 +1,1554 @@
+### PLEASE READ THIS!
+###
+### TO EVERYBODY: This is the master index files for db packages produced at
+### the Gentleman-Lab. It is for Gentleman-Lab's internal use only.
+###
+### TO GENTLEMAN LAB MEMBERS: This file contains absolute paths that point to
+### our NFS-mounted shared partition. This means that you must use
+### makeAnnDbPkg("pkg") on a server where user homes are NFS-mounted for
+### this to work (e.g. on any gopher).
+
+
+### =========================================================================
+### HUMANCHIP_DB schema
+### -------------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### HUMANCHIP_DB > Affymetrix chips
+
+Package: hcg110.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hcg110.sqlite
+AnnObjPrefix: hcg110
+species: Human
+manufacturer: Affymetrix
+
+Package: hgfocus.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgfocus.sqlite
+AnnObjPrefix: hgfocus
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu133a2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu133a2.sqlite
+AnnObjPrefix: hgu133a2
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu133a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu133a.sqlite
+AnnObjPrefix: hgu133a
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu133b.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu133b.sqlite
+AnnObjPrefix: hgu133b
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu133plus2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu133plus2.sqlite
+AnnObjPrefix: hgu133plus2
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu219.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu219.sqlite
+AnnObjPrefix: hgu219
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu95a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu95a.sqlite
+AnnObjPrefix: hgu95a
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu95av2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu95av2.sqlite
+AnnObjPrefix: hgu95av2
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu95b.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu95b.sqlite
+AnnObjPrefix: hgu95b
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu95c.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu95c.sqlite
+AnnObjPrefix: hgu95c
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu95d.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu95d.sqlite
+AnnObjPrefix: hgu95d
+species: Human
+manufacturer: Affymetrix
+
+Package: hgu95e.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgu95e.sqlite
+AnnObjPrefix: hgu95e
+species: Human
+manufacturer: Affymetrix
+
+Package: hu35ksuba.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hu35ksuba.sqlite
+AnnObjPrefix: hu35ksuba
+species: Human
+manufacturer: Affymetrix
+
+Package: hu35ksubb.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hu35ksubb.sqlite
+AnnObjPrefix: hu35ksubb
+species: Human
+manufacturer: Affymetrix
+
+Package: hu35ksubc.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hu35ksubc.sqlite
+AnnObjPrefix: hu35ksubc
+species: Human
+manufacturer: Affymetrix
+
+Package: hu35ksubd.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hu35ksubd.sqlite
+AnnObjPrefix: hu35ksubd
+species: Human
+manufacturer: Affymetrix
+
+Package: hthgu133a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hthgu133a.sqlite
+AnnObjPrefix: hthgu133a
+species: Human
+manufacturer: Affymetrix
+
+Package: hthgu133b.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hthgu133b.sqlite
+AnnObjPrefix: hthgu133b
+species: Human
+manufacturer: Affymetrix
+
+Package: hu6800.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hu6800.sqlite
+AnnObjPrefix: hu6800
+species: Human
+manufacturer: Affymetrix
+
+Package: u133x3p.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/u133x3p.sqlite
+AnnObjPrefix: u133x3p
+species: Human
+manufacturer: Affymetrix
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### HUMANCHIP_DB > Agilent chips
+
+Package: hgug4100a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgug4100a.sqlite
+AnnObjPrefix: hgug4100a
+species: Human
+manufacturer: Agilent
+
+Package: hgug4101a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgug4101a.sqlite
+AnnObjPrefix: hgug4101a
+species: Human
+manufacturer: Agilent
+
+Package: hgug4110b.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgug4110b.sqlite
+AnnObjPrefix: hgug4110b
+species: Human
+manufacturer: Agilent
+
+Package: hgug4111a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgug4111a.sqlite
+AnnObjPrefix: hgug4111a
+species: Human
+manufacturer: Agilent
+
+Package: hgug4112a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgug4112a.sqlite
+AnnObjPrefix: hgug4112a
+species: Human
+manufacturer: Agilent
+
+Package: HsAgilentDesign026652.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/HsAgilentDesign026652.sqlite
+AnnObjPrefix: HsAgilentDesign026652
+species: Human
+manufacturer: Agilent
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### HUMANCHIP_DB > Clontech chips
+
+Package: hguatlas13k.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hguatlas13k.sqlite
+AnnObjPrefix: hguatlas13k
+species: Human
+manufacturer: Clontech
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### HUMANCHIP_DB > Qiagen chips
+
+Package: hguqiagenv3.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hguqiagenv3.sqlite
+AnnObjPrefix: hguqiagenv3
+species: Human
+manufacturer: Qiagen
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### HUMANCHIP_DB > custom arrays
+
+Package: hgubeta7.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hgubeta7.sqlite
+AnnObjPrefix: hgubeta7
+species: Human
+biocViews: AnnotationData, CustomArray, Homo_sapiens
+
+Package: hguDKFZ31.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/hguDKFZ31.sqlite
+AnnObjPrefix: hguDKFZ31
+species: Human
+biocViews: AnnotationData, CustomArray, Homo_sapiens
+
+Package: HuO22.db
+Title: FHCRC Genomics Shared Resource HuO22 Annotation Data (HuO22)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/HuO22.sqlite
+AnnObjPrefix: HuO22
+species: Human
+manufacturer: FHCRC Genomics Shared Resource
+
+Package: JazaeriMetaData.db
+Title: A data package containing annotation data for JazaeriMetaData
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/JazaeriMetaData.sqlite
+AnnObjPrefix: JazaeriMetaData
+species: Human
+manufacturer: National Cancer Institute
+
+Package: Norway981.db
+Title: Norway981 http://genome-www5.stanford.edu/ Annotation Data (Norway981)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/Norway981.sqlite
+AnnObjPrefix: Norway981
+species: Human
+manufacturer: Stanford Microarray Database
+
+Package: OperonHumanV3.db
+Title: FHCRC Nelson Lab OperonHumanV3 Annotation Data (OperonHumanV3)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/OperonHumanV3.sqlite
+AnnObjPrefix: OperonHumanV3
+species: Human
+manufacturer: FHCRC Nelson Lab
+
+Package: PartheenMetaData.db
+Title: PartheenMetaData http://swegene.onk.lu.se Annotation Data (PartheenMetaData)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/PartheenMetaData.sqlite
+AnnObjPrefix: PartheenMetaData
+species: Human
+manufacturer: Swegene DNA Microarray Resource Centre, Lund, Sweden
+
+Package: pedbarrayv9.db
+Title: FHCRC Nelson Lab pedbarrayv9 Annotation Data (pedbarrayv9)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/pedbarrayv9.sqlite
+AnnObjPrefix: pedbarrayv9
+species: Human
+manufacturer: FHCRC Nelson Lab
+
+Package: pedbarrayv10.db
+Title: FHCRC Nelson Lab pedbarrayv10 Annotation Data (pedbarrayv10)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/pedbarrayv10.sqlite
+AnnObjPrefix: pedbarrayv10
+species: Human
+manufacturer: FHCRC Nelson Lab
+
+Package: Roberts2005Annotation.db
+Title: Roberts2005Annotation Annotation Data (Roberts2005Annotation)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/Roberts2005Annotation.sqlite
+AnnObjPrefix: Roberts2005Annotation
+species: Human
+manufacturer: Roberts2005Annotation
+
+Package: SHDZ.db
+Title: SHDZ http://genome-www5.stanford.edu/ Annotation Data (SHDZ)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/SHDZ.sqlite
+AnnObjPrefix: SHDZ
+species: Human
+manufacturer: Stanford Microarray Database
+
+Package: POCRCannotation.db
+Title: A package containing metadata for POCRC arrays
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/POCRCannotation.sqlite
+AnnObjPrefix: POCRCannotation
+species: Human
+manufacturer: CUSTOM
+
+Package: Hs6UG171.db
+Title: A package containing metadata for Hs6UG171 arrays
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/Hs6UG171.sqlite
+AnnObjPrefix: Hs6UG171
+species: Human
+manufacturer: CUSTOM
+
+Package: LAPOINTE.db
+Title: A package containing metadata for LAPOINTE arrays
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/LAPOINTE.sqlite
+AnnObjPrefix: LAPOINTE
+species: Human
+manufacturer: CUSTOM
+
+
+### =========================================================================
+### MOUSECHIP_DB schema
+### -------------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### MOUSECHIP_DB > Affymetrix chips
+
+Package: mgu74a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgu74a.sqlite
+AnnObjPrefix: mgu74a
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mgu74av2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgu74av2.sqlite
+AnnObjPrefix: mgu74av2
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mgu74b.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgu74b.sqlite
+AnnObjPrefix: mgu74b
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mgu74bv2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgu74bv2.sqlite
+AnnObjPrefix: mgu74bv2
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mgu74c.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgu74c.sqlite
+AnnObjPrefix: mgu74c
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mgu74cv2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgu74cv2.sqlite
+AnnObjPrefix: mgu74cv2
+species: Mouse
+manufacturer: Affymetrix
+
+Package: moe430a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/moe430a.sqlite
+AnnObjPrefix: moe430a
+species: Mouse
+manufacturer: Affymetrix
+
+Package: moe430b.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/moe430b.sqlite
+AnnObjPrefix: moe430b
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mouse4302.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mouse4302.sqlite
+AnnObjPrefix: mouse4302
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mouse430a2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mouse430a2.sqlite
+AnnObjPrefix: mouse430a2
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mu11ksuba.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mu11ksuba.sqlite
+AnnObjPrefix: mu11ksuba
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mu11ksubb.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mu11ksubb.sqlite
+AnnObjPrefix: mu11ksubb
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mu19ksuba.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mu19ksuba.sqlite
+AnnObjPrefix: mu19ksuba
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mu19ksubb.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mu19ksubb.sqlite
+AnnObjPrefix: mu19ksubb
+species: Mouse
+manufacturer: Affymetrix
+
+Package: mu19ksubc.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mu19ksubc.sqlite
+AnnObjPrefix: mu19ksubc
+species: Mouse
+manufacturer: Affymetrix
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### MOUSECHIP_DB > Agilent chips
+
+Package: mgug4104a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgug4104a.sqlite
+AnnObjPrefix: mgug4104a
+species: Mouse
+manufacturer: Agilent
+
+Package: mgug4120a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgug4120a.sqlite
+AnnObjPrefix: mgug4120a
+species: Mouse
+manufacturer: Agilent
+
+Package: mgug4121a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgug4121a.sqlite
+AnnObjPrefix: mgug4121a
+species: Mouse
+manufacturer: Agilent
+
+Package: mgug4122a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mgug4122a.sqlite
+AnnObjPrefix: mgug4122a
+species: Mouse
+manufacturer: Agilent
+
+Package: MmAgilentDesign026655.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/MmAgilentDesign026655.sqlite
+AnnObjPrefix: MmAgilentDesign026655
+species: Mouse
+manufacturer: Agilent
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### MOUSECHIP_DB  > Clontech chips
+
+Package: mguatlas5k.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mguatlas5k.sqlite
+AnnObjPrefix: mguatlas5k
+species: Mouse
+manufacturer: Clontech
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### MOUSECHIP_DB > custom arrays
+
+Package: mpedbarray.db
+Title: FHCRC Nelson Lab mpedbarray Annotation Data (mpedbarray)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/mpedbarray.sqlite
+AnnObjPrefix: mpedbarray
+species: Mouse
+manufacturer: FHCRC Nelson Lab
+
+Package: Mu15v1.db
+Title: FHCRC Genomics Shared Resource Mu15v1 Annotation Data (Mu15v1)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/Mu15v1.sqlite
+AnnObjPrefix: Mu15v1
+species: Mouse
+manufacturer: FHCRC Genomics Shared Resource
+
+Package: Mu22v3.db
+Title: FHCRC Genomics Shared Resource Mu22v3 Annotation Data (Mu22v3)
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/Mu22v3.sqlite
+AnnObjPrefix: Mu22v3
+species: Mouse
+manufacturer: FHCRC Genomics Shared Resource
+
+
+### =========================================================================
+### RATCHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### RATCHIP_DB > Affymetrix chips
+
+Package: rae230a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rae230a.sqlite
+AnnObjPrefix: rae230a
+species: Rat
+manufacturer: Affymetrix
+
+Package: rae230b.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rae230b.sqlite
+AnnObjPrefix: rae230b
+species: Rat
+manufacturer: Affymetrix
+
+Package: rat2302.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rat2302.sqlite
+AnnObjPrefix: rat2302
+species: Rat
+manufacturer: Affymetrix
+
+Package: rgu34a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rgu34a.sqlite
+AnnObjPrefix: rgu34a
+species: Rat
+manufacturer: Affymetrix
+
+Package: rgu34b.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rgu34b.sqlite
+AnnObjPrefix: rgu34b
+species: Rat
+manufacturer: Affymetrix
+
+Package: rgu34c.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rgu34c.sqlite
+AnnObjPrefix: rgu34c
+species: Rat
+manufacturer: Affymetrix
+
+Package: rnu34.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rnu34.sqlite
+AnnObjPrefix: rnu34
+species: Rat
+manufacturer: Affymetrix
+
+Package: rtu34.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rtu34.sqlite
+AnnObjPrefix: rtu34
+species: Rat
+manufacturer: Affymetrix
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### RATCHIP_DB > Agilent chips
+
+Package: rgug4105a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rgug4105a.sqlite
+AnnObjPrefix: rgug4105a
+species: Rat
+manufacturer: Agilent
+
+Package: rgug4130a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rgug4130a.sqlite
+AnnObjPrefix: rgug4130a
+species: Rat
+manufacturer: Agilent
+
+Package: rgug4131a.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rgug4131a.sqlite
+AnnObjPrefix: rgug4131a
+species: Rat
+manufacturer: Agilent
+
+Package: RnAgilentDesign028282.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/RnAgilentDesign028282.sqlite
+AnnObjPrefix: RnAgilentDesign028282
+species: Rat
+manufacturer: Agilent
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### RATCHIP_DB > Clontech chips
+
+Package: rguatlas4k.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/rguatlas4k.sqlite
+AnnObjPrefix: rguatlas4k
+species: Rat
+manufacturer: Clontech
+
+
+### =========================================================================
+### FLYCHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: drosgenome1.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/drosgenome1.sqlite
+AnnObjPrefix: drosgenome1
+species: Fly
+manufacturer: Affymetrix
+
+Package: drosophila2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/drosophila2.sqlite
+AnnObjPrefix: drosophila2
+species: Fly
+manufacturer: Affymetrix
+
+Package: indac.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/indac.sqlite
+AnnObjPrefix: indac
+species: Fly
+manufacturer: INDAC
+
+
+### =========================================================================
+### YEASTCHIP_DB schema
+### -------------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: YEASTCHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### YEASTCHIP_DB > Affymetrix chips
+###
+### Old path for Nianhua's sqlite files:
+###   /mnt/cpb_anno/nli/proj/ann/nli/annosrc.orig/affychip/2007-Mar5/yeast/
+
+Package: yeast2.db
+Version: 3.2.3
+PkgTemplate: YEASTCHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/yeast2.sqlite
+AnnObjPrefix: yeast2
+species: Yeast
+manufacturer: Affymetrix
+
+Package: ygs98.db
+Version: 3.2.3
+PkgTemplate: YEASTCHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/ygs98.sqlite
+AnnObjPrefix: ygs98
+species: Yeast
+manufacturer: Affymetrix
+
+
+### =========================================================================
+### ARABIDOPSISCHIP_DB schema
+### -------------------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: ARABIDOPSISCHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### ARABIDOPSISCHIP_DB > Affymetrix chips
+###
+### Old path for Nianhua's sqlite files:
+###   /mnt/cpb_anno/nli/proj/ann/nli/annosrc.orig/affychip/2007-Mar5/arabidopsis/
+
+Package: ag.db
+Version: 3.2.3
+PkgTemplate: ARABIDOPSISCHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/ag.sqlite 
+AnnObjPrefix: ag
+species: Arabidopsis
+manufacturer: Affymetrix
+
+Package: ath1121501.db
+Version: 3.2.3
+PkgTemplate: ARABIDOPSISCHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/ath1121501.sqlite
+AnnObjPrefix: ath1121501
+species: Arabidopsis
+manufacturer: Affymetrix
+
+
+
+### =========================================================================
+### ZEBRAFISHCHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: zebrafish.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/zebrafish.sqlite
+AnnObjPrefix: zebrafish
+species: Zebrafish
+manufacturer: Affymetrix
+
+
+
+### =========================================================================
+### CANINECHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: canine.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/canine.sqlite
+AnnObjPrefix: canine
+species: Canine
+manufacturer: Affymetrix
+
+Package: canine2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/canine2.sqlite
+AnnObjPrefix: canine2
+species: Canine
+manufacturer: Affymetrix
+
+
+
+### =========================================================================
+### WORMCHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: celegans.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/celegans.sqlite
+AnnObjPrefix: celegans
+species: Worm
+manufacturer: Affymetrix
+
+
+
+### =========================================================================
+### CHICKENCHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: chicken.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/chicken.sqlite
+AnnObjPrefix: chicken
+species: Chicken
+manufacturer: Affymetrix
+
+
+
+### =========================================================================
+### BOVINECHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: bovine.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/bovine.sqlite
+AnnObjPrefix: bovine
+species: Bovine
+manufacturer: Affymetrix
+
+
+
+
+### =========================================================================
+### PIGCHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP_DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: porcine.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/porcine.sqlite
+AnnObjPrefix: porcine
+species: Pig
+manufacturer: Affymetrix
+
+
+
+
+### =========================================================================
+### XENOPUSCHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: xlaevis.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/xlaevis.sqlite
+AnnObjPrefix: xlaevis
+species: Xenopus
+manufacturer: Affymetrix
+
+
+
+### =========================================================================
+### ECOLICHIP_DB schema
+### -----------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: NCBICHIP.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget
+###     organism
+###     species
+###     manufacturer
+###     chipName
+###     manufacturerUrl
+###     biocViews
+### Fields marked with an (*) are required.
+
+Package: ecoli2.db
+Version: 3.2.3
+PkgTemplate: NCBICHIP.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/ecoli2.sqlite
+AnnObjPrefix: ecoli2
+species: Escherichia coli
+manufacturer: Affymetrix
+
+
+
+
+
+
+
+
+### =========================================================================
+### HUMAN_DB/MALARIA_DB/MOUSE_DB/RAT_DB/FLY_DB/YEAST_DB/ZEBRAFISH_DB/ECOLI_DB/CANINE_DB/BOVINE_DB/WORM_DB/PIG_DB/CHICKEN_DB schemas
+### ------------------------------------------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: HUMAN.DB|MALARIA.DB|MOUSE.DB|RAT.DB|FLY.DB|YEAST.DB|ZEBRAFISH.DB|ECOLI_DB|CANINE_DB|BOVINE_DB|WORM_DB|PIG_DB|CHICKEN_DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget (*)
+###     organism
+###     species
+###     biocViews (*)
+### Fields marked with an (*) are required.
+
+Package: org.Hs.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Hs.eg.sqlite
+AnnObjPrefix: org.Hs.eg
+AnnObjTarget: Human
+species: Human
+biocViews: AnnotationData, Homo_sapiens, humanLLMappings
+
+Package: org.Pf.plasmo.db
+Version: 3.4.0
+PkgTemplate: MALARIA.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Pf.plasmo.sqlite
+AnnObjPrefix: org.Pf.plasmo
+AnnObjTarget: Malaria
+species: Malaria
+biocViews: AnnotationData, Plasmodium_falciparum
+
+Package: org.Mm.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Mm.eg.sqlite
+AnnObjPrefix: org.Mm.eg
+AnnObjTarget: Mouse
+species: Mouse
+biocViews: AnnotationData, Mus_musculus, mouseLLMappings
+
+Package: org.Rn.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Rn.eg.sqlite
+AnnObjPrefix: org.Rn.eg
+AnnObjTarget: Rat
+species: Rat
+biocViews: AnnotationData, Rattus_norvegicus, ratLLMappings
+
+Package: org.Dm.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Dm.eg.sqlite
+AnnObjPrefix: org.Dm.eg
+AnnObjTarget: Fly
+species: Fly
+biocViews: AnnotationData, Drosophila_melanogaster
+
+Package: org.Sc.sgd.db
+Version: 3.4.0
+PkgTemplate: YEAST.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Sc.sgd.sqlite
+AnnObjPrefix: org.Sc.sgd
+AnnObjTarget: Yeast
+species: Yeast
+biocViews: AnnotationData, Saccharomyces_cerevisiae
+
+Package: org.Dr.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Dr.eg.sqlite
+AnnObjPrefix: org.Dr.eg
+AnnObjTarget: Zebrafish
+species: Zebrafish
+biocViews: AnnotationData, Danio_rerio
+
+Package: org.EcK12.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.EcK12.eg.sqlite
+AnnObjPrefix: org.EcK12.eg
+AnnObjTarget: E coli
+species: E coli strain K12
+biocViews: AnnotationData, Escherichia_coli
+
+Package: org.EcSakai.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.EcSakai.eg.sqlite
+AnnObjPrefix: org.EcSakai.eg
+AnnObjTarget: E coli
+species: E coli strain Sakai
+biocViews: AnnotationData, Escherichia_coli
+
+Package: org.Cf.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Cf.eg.sqlite
+AnnObjPrefix: org.Cf.eg
+AnnObjTarget: Canine
+species: Canine
+biocViews: AnnotationData, Canis_familiaris
+
+Package: org.Bt.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Bt.eg.sqlite
+AnnObjPrefix: org.Bt.eg
+AnnObjTarget: Bovine
+species: Bovine
+biocViews: AnnotationData, Bos_taurus
+
+Package: org.Ce.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Ce.eg.sqlite
+AnnObjPrefix: org.Ce.eg
+AnnObjTarget: Worm
+species: Worm
+biocViews: AnnotationData, Caenorhabditis_elegans
+
+Package: org.Ss.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Ss.eg.sqlite
+AnnObjPrefix: org.Ss.eg
+AnnObjTarget: Pig
+species: Pig
+biocViews: AnnotationData, Sus_scrofa
+
+Package: org.Gg.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Gg.eg.sqlite
+AnnObjPrefix: org.Gg.eg
+AnnObjTarget: Chicken
+species: Chicken
+biocViews: AnnotationData, Gallus_gallus
+
+
+Package: org.Sco.eg.db
+Version: 3.4.0
+PkgTemplate: COELICOLOR.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Sco.eg.sqlite
+AnnObjPrefix: org.Sco.eg
+AnnObjTarget: Streptomyces coelicolor
+species: Streptomyces coelicolor
+biocViews: AnnotationData, Streptomyces_coelicolor
+
+Package: org.Sc.eg.db
+Version: 3.4.0
+PkgTemplate: YEASTNCBI.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Sc.eg.sqlite
+AnnObjPrefix: org.Sc.eg
+AnnObjTarget: Yeast
+species: Yeast
+biocViews: AnnotationData, Saccharomyces_cerevisiae
+
+Package: org.Pt.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Pt.eg.sqlite
+AnnObjPrefix: org.Pt.eg
+AnnObjTarget: Chimp
+species: Chimp
+biocViews: AnnotationData, Pan_troglodytes
+
+Package: org.Mmu.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Mmu.eg.sqlite
+AnnObjPrefix: org.Mmu.eg
+AnnObjTarget: Rhesus
+species: Rhesus
+biocViews: AnnotationData, Macaca_mulatta
+
+Package: org.At.tair.db
+Version: 3.4.0
+PkgTemplate: ARABIDOPSIS.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.At.tair.sqlite
+AnnObjPrefix: org.At.tair
+AnnObjTarget: Arabidopsis
+species: Arabidopsis
+biocViews: AnnotationData, Arabidopsis_thaliana
+
+Package: org.Ag.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Ag.eg.sqlite
+AnnObjPrefix: org.Ag.eg
+AnnObjTarget: Anopheles
+species: Anopheles
+biocViews: AnnotationData, Anopheles_gambiae
+
+Package: org.Xl.eg.db
+Version: 3.4.0
+PkgTemplate: NCBIORG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/org.Xl.eg.sqlite
+AnnObjPrefix: org.Xl.eg
+AnnObjTarget: Xenopus
+species: Xenopus
+biocViews: AnnotationData, Xenopus_laevis
+
+
+
+
+
+
+
+###TEMP just to get a YEAST classic made...
+### Package: YEAST.db
+### Title: SGD centric annotation maps for Yeast
+### Version: 3.2.3
+### PkgTemplate: YEASTLEGACY.DB
+### DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/YEAST.sqlite
+### AnnObjPrefix: YEAST
+### AnnObjTarget: Yeast
+### species: Yeast
+### biocViews: AnnotationData, Saccharomyces_cerevisiae
+
+
+### =========================================================================
+### GO_DB schema
+### ------------
+###   Fields:
+###     Package (*)
+###     Title (*)
+###     Version (*)
+###     PkgTemplate: GO.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget (*)
+###     biocViews (*)
+### Fields marked with an (*) are required.
+
+Package: GO.db
+Title: A set of annotation maps describing the entire Gene Ontology
+Version: 3.4.0
+PkgTemplate: GO.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/GO.sqlite 
+AnnObjPrefix: GO
+AnnObjTarget: GO
+biocViews: AnnotationData, FunctionalAnnotation
+
+
+### =========================================================================
+### KEGG_DB schema
+### ------------
+###   Fields:
+###     Package (*)
+###     Title (*)
+###     Version (*)
+###     PkgTemplate: KEGG.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget (*)
+###     biocViews (*)
+### Fields marked with an (*) are required.
+
+Package: KEGG.db
+Title: A set of annotation maps for KEGG
+Version: 3.2.3
+PkgTemplate: KEGG.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/newPipe/old_code/2015.10.07/KEGG.sqlite
+AnnObjPrefix: KEGG
+AnnObjTarget: KEGG
+biocViews: AnnotationData, FunctionalAnnotation
+
+
+### =========================================================================
+### INPARANOID_DB schema
+### ------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: INPARANOID.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget (*)
+###     organism
+###     species
+###     biocViews (*)
+### Fields marked with an (*) are required.
+
+Package: hom.Hs.inp.db
+Title: Homology information for Homo Sapiens from Inparanoid
+Version: 3.2.3
+PkgTemplate: INPARANOID.DB
+DBfile: /mnt/cpb_anno/mcarlson/sanctionedSqlite/hom.Hs.inp.sqlite
+AnnObjPrefix: hom.Hs.inp
+AnnObjTarget: Human
+species: Human
+biocViews: AnnotationData, Homo_sapiens
+
+Package: hom.Mm.inp.db
+Title: Homology information for Mus musculus from Inparanoid
+Version: 3.2.3
+PkgTemplate: INPARANOID.DB
+DBfile: /mnt/cpb_anno/mcarlson/sanctionedSqlite/hom.Mm.inp.sqlite
+AnnObjPrefix: hom.Mm.inp
+AnnObjTarget: Mouse
+species: Mouse
+biocViews: AnnotationData, Mus_musculus
+
+Package: hom.Rn.inp.db
+Title: Homology information for Rattus norvegicus from Inparanoid
+Version: 3.2.3
+PkgTemplate: INPARANOID.DB
+DBfile: /mnt/cpb_anno/mcarlson/sanctionedSqlite/hom.Rn.inp.sqlite
+AnnObjPrefix: hom.Rn.inp
+AnnObjTarget: Rat
+species: Rat
+biocViews: AnnotationData, Rattus_norvegicus
+
+Package: hom.Dm.inp.db
+Title: Homology information for Drosophila melanogaster from Inparanoid
+Version: 3.2.3
+PkgTemplate: INPARANOID.DB
+DBfile: /mnt/cpb_anno/mcarlson/sanctionedSqlite/hom.Dm.inp.sqlite
+AnnObjPrefix: hom.Dm.inp
+AnnObjTarget: Fly
+species: Fly
+biocViews: AnnotationData, Drosophila_melanogaster
+
+Package: hom.Sc.inp.db
+Title: Homology information for Saccharomyces cerevisiae from Inparanoid
+Version: 3.2.3
+PkgTemplate: INPARANOID.DB
+DBfile: /mnt/cpb_anno/mcarlson/sanctionedSqlite/hom.Sc.inp.sqlite
+AnnObjPrefix: hom.Sc.inp
+AnnObjTarget: Yeast
+species: Yeast
+biocViews: AnnotationData, Saccharomyces_cerevisiae
+
+Package: hom.At.inp.db
+Title: Homology information for Arabidopsis thaliana from Inparanoid
+Version: 3.2.3
+PkgTemplate: INPARANOID.DB
+DBfile: /mnt/cpb_anno/mcarlson/sanctionedSqlite/hom.At.inp.sqlite
+AnnObjPrefix: hom.At.inp
+AnnObjTarget: Arabidopsis
+species: Arabidopsis
+biocViews: AnnotationData, Arabidopsis_thaliana
+
+Package: hom.Dr.inp.db
+Title: Homology information for Danio rerio from Inparanoid
+Version: 3.2.3
+PkgTemplate: INPARANOID.DB
+DBfile: /mnt/cpb_anno/mcarlson/sanctionedSqlite/hom.Dr.inp.sqlite
+AnnObjPrefix: hom.Dr.inp
+AnnObjTarget: Zebrafish
+species: Zebrafish
+biocViews: AnnotationData, Danio_rerio
+
+Package: hom.Ce.inp.db
+Title: Homology information for Caenorhabditis elegans from Inparanoid
+Version: 3.2.3
+PkgTemplate: INPARANOID.DB
+DBfile: /mnt/cpb_anno/mcarlson/sanctionedSqlite/hom.Ce.inp.sqlite
+AnnObjPrefix: hom.Ce.inp
+AnnObjTarget: Worm
+species: Worm
+biocViews: AnnotationData, Caenorhabditis_elegans
+
+
+### =========================================================================
+### PFAM_DB schema
+### ------------
+###   Fields:
+###     Package (*)
+###     Title
+###     Version (*)
+###     PkgTemplate: PFAM.DB
+###     DBfile (*)
+###     DBschema
+###     AnnObjPrefix (*)
+###     AnnObjTarget (*)
+###     organism
+###     species
+###     biocViews (*)
+### Fields marked with an (*) are required.
+
+Package: PFAM.db
+Title: A set of protein ID mappings for PFAM
+Version: 3.4.0
+PkgTemplate: PFAM.DB
+DBfile: /home/ubuntu/cpb_anno/AnnotationBuildPipeline/annosrc/BioconductorAnnotationPipeline/newPipe/sanctionedSqlite/PFAM.sqlite
+AnnObjPrefix: PFAM
+AnnObjTarget: Human
+species: Human
+biocViews: AnnotationData
+
+
+
