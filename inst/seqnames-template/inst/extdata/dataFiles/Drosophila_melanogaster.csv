@@ -1,0 +1,16 @@
+NCBI	UCSC	Ensembl
+2L	chr2L	2L
+2R	chr2R	2R
+3L	chr3L	3L
+3R	chr3R	3R
+4	chr4	4
+X	chrX	X
+MT	chrM	dmel_mitochondrion_genome
+2LHet	chr2LHet	2LHet
+2Rhet	chr2RHet	2RHet
+3LHet	chr3LHet	3LHet
+3RHet	chr3RHet	3RHet
+Xhet	chrXHet	XHet
+Yhet	chrYHet	YHet
+Un	chrU	U
+NA	chrUextra	Uextra
