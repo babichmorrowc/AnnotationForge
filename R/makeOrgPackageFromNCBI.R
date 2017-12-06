@@ -1091,12 +1091,9 @@ OLD_makeOrgPackageFromNCBI <-
     function(NCBIcon, NCBIFilesDir, rebuildCache)
 {
     dest <- file.path(NCBIFilesDir, "idmapping_selected.tab.gz")
-    if (rebuildCache) {
-        url <- "ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/idmapping_selected.tab.gz"
+    
         loadNamespace("RCurl")
-        f <- RCurl::CFILE(dest, mode="wb")
-        RCurl::curlPerform(url = url, writedata = f@ref)
-    }
+        
     ## create table and set up indices
     dbGetQuery(NCBIcon, "
         CREATE TABLE IF NOT EXISTS altGO (
